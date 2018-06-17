@@ -1,1 +1,8 @@
 /* You can add global styles to this file, and also import other style files */
+body {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.button.is-primary {
+  background: #7ad6cb !important ;
+  border: 3px dotted #7ad6cb;
+}

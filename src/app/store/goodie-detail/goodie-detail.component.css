@@ -1,0 +1,26 @@
+.column {
+  width: 100%;
+}
+.card-table {
+  padding: 8px;
+  font-weight: bold;
+  background: #fff0fe;
+  color: #b70b8e;
+}
+.is-info {
+  background: #b70c8e !important;
+}
+h5 {
+  color: #ea4bc3 !important;
+  border-bottom: 1px solid #e0b0d5;
+  padding-bottom: 5px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+h6 {
+  font-style: italic;
+  font-weight: bold;
+  color: #ea4bc3 !important;
+  text-align: center;
+  margin-bottom: 0;
+}

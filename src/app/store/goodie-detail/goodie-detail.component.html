@@ -1,0 +1,19 @@
+<div class="column is-6">
+  <div class="card events-card">
+    <header class="card-header">
+      <p class="card-header-title">
+        Goodie Info
+      </p>
+    </header>
+    <div class="card-table">
+      <div class="content">
+        <h5>{{goodie.name}}</h5>
+        <h6>({{goodie.likes}} likes)</h6>
+      </div>
+    </div>
+    <footer class="card-footer">
+      <a (click)="like(goodie)" class="button is-small is-info">
+        <i class="fas fa-heart" style="padding-right: 5px"></i>Vote for this sweetness</a>
+    </footer>
+  </div>
+</div>
